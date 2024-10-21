@@ -5,7 +5,7 @@ import (
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 )
 
-var MagicValue = [4]byte{16, 26, 0xba, 0x7e}
+var MagicValue = [4]byte{0x16, 0x26, 0xba, 0x7e}
 var InvalidSigValue = [4]byte{0xff, 0xff, 0xff, 0xff}
 
 type ETHClient interface {
